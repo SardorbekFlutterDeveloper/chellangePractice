@@ -1,6 +1,6 @@
 {
-    "name": "lesson_03",
-    "short_name": "lesson_03",
+    "name": "03_basic_widgets",
+    "short_name": "03_basic_widgets",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

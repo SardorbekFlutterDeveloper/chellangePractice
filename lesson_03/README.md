@@ -1,8 +1,7 @@
-# lesson_03
+# 03_basic_widgets
 
-A new Flutter project.
 
-## Getting Started
+
 
 This project is a starting point for a Flutter application.
 
