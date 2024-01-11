@@ -1,1 +1,2 @@
 # chellangePractice
+"added first lesson"
