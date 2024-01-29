@@ -1,6 +1,6 @@
 {
-    "name": "03_basic_widgets",
-    "short_name": "03_basic_widgets",
+    "name": "dars_03",
+    "short_name": "dars_03",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

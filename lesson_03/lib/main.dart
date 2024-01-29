@@ -1,33 +1,24 @@
+// 1
+import 'package:dars_03/theme/fooderlich_theme.dart';
 import 'package:flutter/material.dart';
-
+import '/screens/home_page.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(const Fooderlich());
 }
 
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
-
-  // 1
+class Fooderlich extends StatelessWidget {
+  const Fooderlich({Key? key}) : super(key: key);
   @override
   Widget build(BuildContext context) {
     // 2
-    final ThemeData theme = ThemeData();
-    // 3
-    return MaterialApp(
-      // 4
-      title: 'Recipe Calculator',
+    final theme = FooderlichTheme.dark();
 
+    return MaterialApp(
+      theme: theme,
+      title: 'Fooderlich',
       debugShowCheckedModeBanner: false,
-      // 5
-      theme: theme.copyWith(
-        colorScheme: theme.colorScheme.copyWith(
-          primary: Colors.grey,
-          secondary: Colors.black,
-        ),
-      ),
-      // 6
-      // home: HomePage(title: 'Recipe Calculator'),
+      home: const HomePage(),
     );
   }
 }
