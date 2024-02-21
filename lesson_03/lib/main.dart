@@ -5,6 +5,7 @@ import '/screens/home_page.dart';
 
 void main() {
   runApp(const Fooderlich());
+ 
 }
 
 class Fooderlich extends StatelessWidget {
